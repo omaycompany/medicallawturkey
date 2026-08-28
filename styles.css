@@ -918,6 +918,31 @@ a.channel { cursor: pointer; }
 .channel-text span {
   font-size: 0.82rem; color: var(--text-muted);
 }
+.office-channel { align-items: flex-start; }
+.office-channel .channel-icon { margin-top: 0.15rem; }
+.office-list {
+  display: flex; flex-direction: column; gap: 0.75rem;
+  margin-top: 0.65rem;
+}
+.office-entry {
+  padding-top: 0.75rem; border-top: 1px solid var(--border-light);
+}
+.office-entry:first-child { padding-top: 0; border-top: 0; }
+.office-entry strong {
+  font-size: 0.82rem; line-height: 1.35;
+}
+.office-entry span,
+.office-address {
+  display: block; margin-top: 0.15rem;
+  font-size: 0.82rem; color: var(--text-muted); line-height: 1.55;
+}
+.office-address { text-decoration: underline; text-underline-offset: 2px; }
+.office-address:hover { color: var(--teal); }
+.office-phone {
+  display: inline-block; margin-top: 0.2rem;
+  font-size: 0.8rem; color: var(--teal); font-weight: 600;
+}
+.office-phone:hover { text-decoration: underline; }
 
 /* Contact Form */
 .contact-form {
