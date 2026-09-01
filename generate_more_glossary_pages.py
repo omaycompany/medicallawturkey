@@ -79,7 +79,7 @@ header_template = """<!DOCTYPE html>
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://medicallawturkey.com/glossary-__SLUG__.html">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=20260901-nav">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
   <link rel="apple-touch-icon" href="images/logo.png">
 </head>
@@ -107,7 +107,7 @@ header_template = """<!DOCTYPE html>
         <li><a href="index.html#contact">Contact</a></li>
       </ul>
       <a href="index.html#contact" class="nav-cta" id="navCtaBtn">Case Review</a>
-      <button class="hamburger" id="hamburgerBtn" aria-label="Toggle navigation menu">
+      <button class="hamburger" id="hamburgerBtn" type="button" aria-label="Toggle navigation menu" aria-controls="navLinks" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
     </div>
@@ -178,16 +178,7 @@ footer_template = """
     </div>
   </footer>
 
-  <script>
-    const nav = document.getElementById('mainNav');
-    window.addEventListener('scroll', () => {
-      nav.classList.toggle('scrolled', window.scrollY > 50);
-    });
-    document.getElementById('hamburgerBtn').addEventListener('click', () => {
-      document.getElementById('navLinks').classList.toggle('active');
-      document.getElementById('hamburgerBtn').classList.toggle('active');
-    });
-  </script>
+  <script src="navigation.js?v=20260901-nav"></script>
 
   <!-- ── FLOATING WHATSAPP ── -->
   <a href="https://wa.me/905319336316" class="floating-whatsapp" id="floatingWhatsapp" target="_blank" rel="noopener"
