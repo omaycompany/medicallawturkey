@@ -1,25 +1,30 @@
-import os
-import glob
+"""Normalise production and homepage URLs in generated static files."""
 
-def replace_urls(directory):
-    extensions = ['*.html', '*.xml', '*.json']
-    files = []
-    for ext in extensions:
-        files.extend(glob.glob(os.path.join(directory, '**', ext), recursive=True))
+from pathlib import Path
 
-    for filepath in files:
-        try:
-            with open(filepath, 'r', encoding='utf-8') as f:
-                content = f.read()
 
-            new_content = content.replace('https://medicallawturkey.com', 'https://www.medicallawturkey.com')
+def replace_urls(directory: str | Path = ".") -> list[Path]:
+    root = Path(directory)
+    updated: list[Path] = []
+    source_script = Path(__file__).resolve()
+    non_www_site = "https://" + "medicallawturkey.com"
+    production_site = "https://www." + "medicallawturkey.com"
+    for filepath in sorted(root.rglob("*")):
+        if filepath.suffix.lower() not in {".html", ".xml", ".json", ".py"}:
+            continue
+        if filepath.resolve() == source_script:
+            continue
+        content = filepath.read_text(encoding="utf-8")
+        normalised = content.replace(non_www_site, production_site)
+        if filepath.suffix.lower() in {".html", ".py"}:
+            normalised = normalised.replace('href="index.html#', 'href="/#')
+            normalised = normalised.replace('href="index.html"', 'href="/"')
+        if normalised != content:
+            filepath.write_text(normalised, encoding="utf-8")
+            updated.append(filepath)
+    return updated
 
-            if new_content != content:
-                with open(filepath, 'w', encoding='utf-8') as f:
-                    f.write(new_content)
-                print(f"Updated {filepath}")
-        except Exception as e:
-            print(f"Error reading/writing {filepath}: {e}")
 
 if __name__ == "__main__":
-    replace_urls('/Users/busraocak/Desktop/Medicallaw Turkeyy')
+    changed = replace_urls()
+    print(f"Normalised URLs in {len(changed)} files.")

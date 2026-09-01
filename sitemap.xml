@@ -1,676 +1,435 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <!-- Ana Sayfa -->
   <url>
     <loc>https://www.medicallawturkey.com/</loc>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-
-  <!-- Uzmanlık Alanları -->
-  <url>
-    <loc>https://www.medicallawturkey.com/specializations.html</loc>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Vaka Çalışmaları -->
-  <url>
-    <loc>https://www.medicallawturkey.com/casestudies.html</loc>
-    <lastmod>2026-05-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Uzmanlık Alt Sayfaları -->
-  <url>
-    <loc>https://www.medicallawturkey.com/rhinoplasty-malpractice.html</loc>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
-    <loc>https://www.medicallawturkey.com/breast-augmentation-malpractice.html</loc>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://www.medicallawturkey.com/arm-lift-malpractice.html</loc>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
-    <loc>https://www.medicallawturkey.com/breast-reduction-malpractice.html</loc>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.medicallawturkey.com/breast-lift-malpractice.html</loc>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.medicallawturkey.com/liposuction-malpractice.html</loc>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://www.medicallawturkey.com/articles.html</loc>
+    <lastmod>2026-07-02</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/bbl-malpractice.html</loc>
     <lastmod>2026-03-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.medicallawturkey.com/hair-transplant-malpractice.html</loc>
+    <loc>https://www.medicallawturkey.com/breast-augmentation-malpractice.html</loc>
     <lastmod>2026-03-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.medicallawturkey.com/dental-treatments-malpractice.html</loc>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.medicallawturkey.com/hollywood-smile-malpractice.html</loc>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.medicallawturkey.com/eye-treatments.html</loc>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.medicallawturkey.com/eyelid-lift-malpractice.html</loc>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.medicallawturkey.com/facelift-abdominal-liposuction-case-study.html</loc>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.medicallawturkey.com/arm-lift-malpractice.html</loc>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.medicallawturkey.com/leg-lift-malpractice.html</loc>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.medicallawturkey.com/ear-lift-malpractice.html</loc>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.medicallawturkey.com/french-sling-malpractice.html</loc>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.medicallawturkey.com/gynecomastia-malpractice.html</loc>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.medicallawturkey.com/non-surgical-malpractice.html</loc>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.medicallawturkey.com/in-vitro-fertilization-malpractice.html</loc>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Vaka Çalışması Detay Sayfaları -->
-  <url>
-    <loc>https://www.medicallawturkey.com/rhinoplasty-case-study.html</loc>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/breast-insurance-case-study.html</loc>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.medicallawturkey.com/breast-lift-malpractice.html</loc>
     <lastmod>2026-03-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/breast-reconstruction-asymmetry-case-study.html</loc>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.medicallawturkey.com/breast-reduction-malpractice.html</loc>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/breast-reduction-necrosis-case-study.html</loc>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/breast-reduction-revision-case-study.html</loc>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
-    <loc>https://www.medicallawturkey.com/face-neck-lift-case-study.html</loc>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.medicallawturkey.com/face-scar-revision-case-study.html</loc>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.medicallawturkey.com/hair-transplant-case-study.html</loc>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.medicallawturkey.com/liposuction-arm-lift-case-study.html</loc>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.medicallawturkey.com/rhinoplasty-multiple-revision-conflict-case-study.html</loc>
+    <loc>https://www.medicallawturkey.com/casestudies.html</loc>
     <lastmod>2026-05-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.medicallawturkey.com/septorhinoplasty-infraorbital-fracture-case-study.html</loc>
-    <lastmod>2026-05-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.medicallawturkey.com/hair-dye-consumer-jurisdiction-case-study.html</loc>
-    <lastmod>2026-05-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- Makaleler -->
-  <url>
-    <loc>https://www.medicallawturkey.com/medical-malpractice-and-compensation-liability-in-turkey.html</loc>
-    <lastmod>2026-05-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.medicallawturkey.com/patient-rights-and-informed-consent-in-turkey.html</loc>
-    <lastmod>2026-05-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Yasal / Politika Sayfaları -->
-  <url>
-    <loc>https://www.medicallawturkey.com/privacy-policy.html</loc>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.medicallawturkey.com/terms-of-use.html</loc>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.medicallawturkey.com/cookie-policy.html</loc>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.medicallawturkey.com/kvkk-gdpr-notice.html</loc>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-
-
-  <!-- Automatically Added Files -->
-  <url>
-    <loc>https://www.medicallawturkey.com/articles.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/cervical-disc-hernia-case-study.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/clinic-blocked-me-after-surgery-legal-case-turkey.html</loc>
     <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.medicallawturkey.com/cookie-policy.html</loc>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/cosmetic-surgery-complications-turkey-legal-rights.html</loc>
     <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.medicallawturkey.com/dental-treatments-malpractice.html</loc>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.medicallawturkey.com/ear-lift-malpractice.html</loc>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.medicallawturkey.com/eye-treatments.html</loc>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.medicallawturkey.com/eyelid-lift-malpractice.html</loc>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.medicallawturkey.com/face-neck-lift-case-study.html</loc>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.medicallawturkey.com/face-scar-revision-case-study.html</loc>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.medicallawturkey.com/facelift-abdominal-liposuction-case-study.html</loc>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.medicallawturkey.com/french-sling-malpractice.html</loc>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-assumption-of-risk.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-bereavement-damages.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-breach-of-contract.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-burden-of-proof.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-capacity-to-consent.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-causation.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-complication.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-consumer-law.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-contractual-liability.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-contributory-negligence.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-cosmetic-surgery-regulation.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-court-of-cassation.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-criminal-liability.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-damage-mitigation-obligation.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-duty-of-care.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-emergency-exception-to-consent.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-force-majeure.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-forensic-medicine-institute.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-future-medical-expenses.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-health-law.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-health-tourism.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-iatrogenic-injury.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-informed-consent.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-interest-on-damages.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-joint-and-several-liability.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-loss-of-consortium.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-loss-of-earnings.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-lump-sum-vs-periodic-payment.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-malpractice-insurance.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-mediation.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-medical-board-report.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-medical-device-liability.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-medical-malpractice.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-medical-service-contract.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-minor-patient-consent.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-non-pecuniary-damages.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-nosocomial-infection.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-off-label-drug-use.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-patient-advocate.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-patient-rights-regulation.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-pecuniary-damages.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-permanent-disability-rate.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-post-operative-care.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-power-of-attorney.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-privacy-of-medical-data.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-right-to-access-medical-records.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-right-to-refuse-treatment.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-right-to-second-opinion.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-social-security-recourse.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-standard-of-care.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-statute-of-limitations.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-strict-liability.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-surgical-negligence.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-temporary-incapacity.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-tortious-liability.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-turkish-code-of-obligations.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-vicarious-liability.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-vulnerable-patient.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-wrong-site-surgery.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary-wrongful-death.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/glossary.html</loc>
     <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.medicallawturkey.com/index.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <loc>https://www.medicallawturkey.com/gynecomastia-malpractice.html</loc>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.medicallawturkey.com/hair-dye-consumer-jurisdiction-case-study.html</loc>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.medicallawturkey.com/hair-transplant-case-study.html</loc>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.medicallawturkey.com/hair-transplant-malpractice.html</loc>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.medicallawturkey.com/hollywood-smile-malpractice.html</loc>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.medicallawturkey.com/in-vitro-fertilization-malpractice.html</loc>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.medicallawturkey.com/kvkk-gdpr-notice.html</loc>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.medicallawturkey.com/leg-lift-malpractice.html</loc>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.medicallawturkey.com/liposuction-arm-lift-case-study.html</loc>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/liposuction-body-contouring-complications-turkey-legal-rights.html</loc>
     <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.medicallawturkey.com/liposuction-malpractice.html</loc>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.medicallawturkey.com/medical-malpractice-and-compensation-liability-in-turkey.html</loc>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.medicallawturkey.com/non-surgical-malpractice.html</loc>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.medicallawturkey.com/patient-rights-and-informed-consent-in-turkey.html</loc>
+    <lastmod>2026-05-03</lastmod>
+  </url>
+  <url>
+    <loc>https://www.medicallawturkey.com/privacy-policy.html</loc>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.medicallawturkey.com/rhinoplasty-case-study.html</loc>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.medicallawturkey.com/rhinoplasty-in-turkey-went-wrong-medical-malpractice.html</loc>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.medicallawturkey.com/rhinoplasty-malpractice.html</loc>
+    <lastmod>2026-03-30</lastmod>
+  </url>
+  <url>
+    <loc>https://www.medicallawturkey.com/rhinoplasty-multiple-revision-conflict-case-study.html</loc>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.medicallawturkey.com/septorhinoplasty-infraorbital-fracture-case-study.html</loc>
+    <lastmod>2026-09-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.medicallawturkey.com/specializations.html</loc>
+    <lastmod>2026-03-30</lastmod>
+  </url>
+  <url>
+    <loc>https://www.medicallawturkey.com/terms-of-use.html</loc>
+    <lastmod>2026-09-01</lastmod>
   </url>
   <url>
     <loc>https://www.medicallawturkey.com/understanding-legal-rights-cosmetic-surgery-complications-turkey.html</loc>
     <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <!-- Automatically Added Files -->
-  <url>
-    <loc>https://www.medicallawturkey.com/rhinoplasty-in-turkey-went-wrong-medical-malpractice.html</loc>
-    <lastmod>2026-07-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
 </urlset>

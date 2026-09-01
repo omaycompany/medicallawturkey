@@ -1,48 +1,56 @@
-import os
-import glob
-from datetime import datetime
-import xml.etree.ElementTree as ET
+"""Rebuild sitemap.xml from canonical root-level HTML URLs."""
 
-sitemap_path = '/Users/busraocak/Desktop/Medicallaw Turkeyy/sitemap.xml'
+from pathlib import Path
+from xml.etree import ElementTree as ET
 
-# Read sitemap to find existing URLs
-with open(sitemap_path, 'r', encoding='utf-8') as f:
-    sitemap_content = f.read()
+from add_contextual_links import PAGES as CONTEXTUAL_PAGES
 
-# All HTML files in root
-all_html_files = glob.glob('/Users/busraocak/Desktop/Medicallaw Turkeyy/*.html')
-basenames = [os.path.basename(f) for f in all_html_files]
 
-missing_files = []
-for f in basenames:
-    if f not in sitemap_content:
-        missing_files.append(f)
+SITE = "https://www.medicallawturkey.com"
+UPDATED = "2026-09-01"
+ROOT = Path(__file__).parent
+SITEMAP = ROOT / "sitemap.xml"
+NS = "http://www.sitemaps.org/schemas/sitemap/0.9"
 
-if not missing_files:
-    print("No missing files!")
-else:
-    print(f"Missing {len(missing_files)} files: {missing_files}")
-    
-    # Generate new XML blocks
-    new_xml = "\n  <!-- Automatically Added Files -->\n"
-    today = datetime.now().strftime("%Y-%m-%d")
-    
-    for f in sorted(missing_files):
-        # Give main glossary and articles slightly higher priority
-        priority = "0.6"
-        if f in ['glossary.html', 'articles.html']:
-            priority = "0.9"
-        
-        new_xml += f"""  <url>
-    <loc>https://www.medicallawturkey.com/{f}</loc>
-    <lastmod>{today}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>{priority}</priority>
-  </url>
-"""
 
-    new_sitemap_content = sitemap_content.replace('</urlset>', new_xml + '</urlset>')
-    
-    with open(sitemap_path, 'w', encoding='utf-8') as f:
-        f.write(new_sitemap_content)
-    print("Sitemap updated.")
+def existing_lastmods() -> dict[str, str]:
+    if not SITEMAP.exists():
+        return {}
+    tree = ET.parse(SITEMAP)
+    return {
+        node.findtext(f"{{{NS}}}loc", ""): node.findtext(f"{{{NS}}}lastmod", "")
+        for node in tree.findall(f"{{{NS}}}url")
+    }
+
+
+def canonical_for(page: Path) -> str:
+    return f"{SITE}/" if page.name == "index.html" else f"{SITE}/{page.name}"
+
+
+def rebuild() -> int:
+    prior = existing_lastmods()
+    pages = sorted(ROOT.glob("*.html"), key=lambda path: (path.name != "index.html", path.name))
+    ET.register_namespace("", NS)
+    root = ET.Element(f"{{{NS}}}urlset")
+    for page in pages:
+        canonical = canonical_for(page)
+        url = ET.SubElement(root, f"{{{NS}}}url")
+        ET.SubElement(url, f"{{{NS}}}loc").text = canonical
+        changed_content = page.name.startswith("glossary-") or page.name in CONTEXTUAL_PAGES or page.name in {
+            "index.html",
+            "cookie-policy.html", "kvkk-gdpr-notice.html", "privacy-policy.html", "terms-of-use.html"
+        }
+        lastmod = UPDATED if changed_content else prior.get(canonical, UPDATED)
+        ET.SubElement(url, f"{{{NS}}}lastmod").text = lastmod
+    ET.indent(root, space="  ")
+    SITEMAP.write_text(
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        + ET.tostring(root, encoding="unicode")
+        + "\n",
+        encoding="utf-8",
+    )
+    return len(pages)
+
+
+if __name__ == "__main__":
+    print(f"Sitemap rebuilt with {rebuild()} canonical URLs.")

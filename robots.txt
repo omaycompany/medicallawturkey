@@ -1,0 +1,5 @@
+# Medical Law Türkiye permits crawling by search engines and AI user agents.
+User-agent: *
+Allow: /
+
+Sitemap: https://www.medicallawturkey.com/sitemap.xml
